@@ -16,6 +16,9 @@ public class actividad36 {
 		
 		int hora=8;
 		
+		
+		int menor = 9999999;
+		
 			for (int i =8; i<=17; i++) {
 			
 			System.out.println("profesor ingrese los ingresos de la hora:  "+ i);
@@ -32,15 +35,19 @@ public class actividad36 {
 				hora = i;
 				
 			}
+			else if ( ing < menor ) {
+				
+				menor = (int)ing;
 			
-			
+				hora = i;
+				
+			}
 			
 			}
 		
 			System.out.println("El ingreso diario fue: "+ suma);
 			System.out.println("El mayor ingreso del dia fueron: "+ mayor +" pesos, a las  " + hora + " horas");
-		
-		
+		System.out.println("El mayor ingreso del dia fueron: "+ menor +" pesos, a las  " + hora + " horas");
 	}
 		
 

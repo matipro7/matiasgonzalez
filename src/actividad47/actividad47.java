@@ -9,7 +9,7 @@ public class actividad47 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-			Scanner scanner = new Scanner (System.in);
+		Scanner scanner = new Scanner (System.in);
 		
 		int [] notas = new int [4];
 		char apellido;
